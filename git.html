@@ -1,0 +1,75 @@
+<!-- 1 creer un nouveau depot Git en utilisant la commande Git init-->
+accedre au repertoire ou vous souhaitez creer le depot . ensuite , exécutez la commande git init.
+
+
+<!-- 2 ajouter un fichier au depot en utlisant la commande git add. -->
+git add "nom du fichier"
+ou
+git add --all
+ou 
+git add .
+
+
+<!--3 verifier l'etat du depot en utilisant la commande git status.-->
+git status 
+affiche les fichiers modifiés, ajoutés et supprimes, ainsi que la branche active et d'autres informations sur l'etat du depot
+
+<!--- 4 effectuer un commit en utilisant la commande git commit-->
+git commit -m "first commit"
+
+<!-- 5 ajouter un deuxieme fichier et effectuer un commit.-->
+creez un fichier deuxiemeFichier.html 
+git status
+git and deuxiemefichier.html 
+git commit -m "deuxiemeFichier.html" 
+
+<!-- git s'enregistrer en tant que utilisateur   -->
+git config --global user.name "nom-user"
+git config --global user.email "mailuser"
+
+<!-- 6  verifier l'historiquedes commits en utilisant la commune git log   -->
+git log.
+affiche la liste des commits avec leur message, leur auteur leur date et leur identifiant de commit 
+
+
+<!-- 7 creer une nouvelle branche en utilisant la commande   -->
+commencer par un prefixe pour indiquer le type de branche
+git branch cours-git/premiere-branche
+
+
+<!-- 8 basculer sur la nouvelle branche en utilisant la commande git checkout   -->
+git checkout cours-git/premiere-branche
+
+<!-- 9 modifier un fichier et effectuer un commit sur la nouvelle branche   -->
+git status
+git add mon_fichier_modifie.txt 
+git commit -m "Modification sur la nouvelle branche"
+
+
+
+
+
+<!-- 10 basculer sur la branche principale en utilisant la checkout  -->
+git checkout "nom de la branche"
+git checkout master
+
+<!-- 11 fusionner la branche de travail dans la branche principale en utilisant la commande git merge.  -->
+git merge suivie du nom de la branche à fusionner :
+
+
+
+<!-- 12 modififier un fichier sur la brancheprincipale et effectuer un commit   -->
+utilisez les memes commandes que pour le premier fichier:
+git add exerciceGitResonses.html
+git commit -m "Modification d'exerciceGitReponses.html sur master"
+
+<!-- 13    -->
+
+<!-- 11   -->
+
+
+<!-- 12    -->
+
+
+
+<!-- 13    -->
